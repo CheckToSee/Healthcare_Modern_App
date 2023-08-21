@@ -2,9 +2,9 @@
 
 const Hero = () => {
   return (
-    <div className="w-full h-screen mt-[-64px] flex justify-center bg-gradient-to-b from-[#FFFFFF] to-white">
+    <div className="w-full md:h-screen mt-[-64px] flex justify-center bg-gradient-to-b from-[#e5e5e5] to-white">
       <div className="mt-[64px] block lg:flex grid-cols-2 justify-center lg:justify-start items-center w-full max-w-[1400px]">
-        <div className="flex flex-[1] flex-col pl-8 lg:pr-0 pr-4">
+        <div className="flex flex-[1] flex-col pl-8 lg:pr-0 pr-8">
           <h1 className="text-[#272D4E] lg:font-normal font-bold lg:text-7xl md:text-5xl text-4xl pt-14 lg:pt-4 pb-4">
             Online urgent care made available when you need it
           </h1>
@@ -19,7 +19,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="lg:justify-start justify-center lg:flex flex-[1] h-full items-center">
-          <img className="block lg:absolute w-full px-8 lg:px-0 lg:w-[50%] lg:pl-4 lg:py-0 py-10" src="/doctortest1.jpeg" />
+          <img className="block max-h-[600px] lg:max-h-screen lg:absolute w-full px-8 lg:px-0 lg:w-[48vw] lg:pl-4 lg:py-0 py-10" src="/doctortest1.jpeg" />
         </div>
       </div>
     </div>
