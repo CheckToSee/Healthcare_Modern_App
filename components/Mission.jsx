@@ -29,7 +29,7 @@ const Mission = () => {
                       again, right from your smartphone, tablet, or desktop
                       computer.
                     </p>
-                    <button className="px-16 py-4 rounded-full bg-[#70C217] hover:bg-[#76cc18] font-bold">
+                    <button className="md:w-[45%] w-full py-4 rounded-full bg-[#70C217] hover:bg-[#76cc18] font-bold">
                       Schedule Visit
                     </button>
                   </div>
@@ -48,21 +48,21 @@ const Mission = () => {
                   </h3>
                   <div className="w-full flex flex-row mb-7">
                     <ul className="w-full">
-                      <li className="mb-2 text-xl">• Flu</li>
-                      <li className="mb-2 text-xl">• Minor Rashes</li>
-                      <li className="mb-2 text-xl">• Tooth Pain</li>
-                      <li className="mb-2 text-xl">• Pink eye</li>
-                      <li className="mb-2 text-xl">• Allergies</li>
+                      <li className="mb-2 md:text-xl text-lg">• Flu</li>
+                      <li className="mb-2 md:text-xl text-lg">• Minor Rashes</li>
+                      <li className="mb-2 md:text-xl text-lg">• Tooth Pain</li>
+                      <li className="mb-2 md:text-xl text-lg">• Pink eye</li>
+                      <li className="mb-2 md:text-xl text-lg">• Allergies</li>
                     </ul>
                     <ul className="w-full">
-                      <li className="mb-2 text-xl">• Cold & Fever</li>
-                      <li className="mb-2 text-xl">• Sore Throat</li>
-                      <li className="mb-2 text-xl">• Skin Infections</li>
-                      <li className="mb-2 text-xl">• Diarrhea</li>
-                      <li className="text-xl">• Headache</li>
+                      <li className="mb-2 md:text-xl text-lg">• Cold & Fever</li>
+                      <li className="mb-2 md:text-xl text-lg">• Sore Throat</li>
+                      <li className="mb-2 md:text-xl text-lg">• Skin Infections</li>
+                      <li className="mb-2 md:text-xl text-lg">• Diarrhea</li>
+                      <li className="md:text-xl text-lg">• Headache</li>
                     </ul>
                   </div>
-                  <button className="px-10 py-4 rounded-full bg-[#70C217] hover:bg-[#76cc18] font-bold">
+                  <button className="md:w-[62%] w-full py-4 rounded-full bg-[#70C217] hover:bg-[#76cc18] font-bold">
                     View All Conditions
                   </button>
                 </div>

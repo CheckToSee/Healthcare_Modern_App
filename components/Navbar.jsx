@@ -51,6 +51,41 @@ const Navbar = () => {
             <AiOutlineMenu size={30} className="mr-4 cursor-pointer" />
           )}
         </div>
+        <div
+          className={
+            !nav
+              ? "fixed right-0 top-0 md:w-[400px] w-[95%] ml-14 md:h-[80%] h-[95%] bg-[#f5f5f5] ease-in-out duration-300 mt-16 rounded-xl flex flex-col justify-start"
+              : "fixed md:right-[-30%] right-[-40%] top-[-10%] ease-in-out duration-100"
+          }
+        >
+          <ul className="flex flex-col text-xl text-[#272D4E] font-normal pl-5 pt-7">
+            <li className="px-4 hover:text-[#4e599c] cursor-pointer pb-7">
+              Doctors
+            </li>
+            <li className="px-4 hover:text-[#4e599c] cursor-pointer pb-7">
+              Conditions
+            </li>
+            <li className="px-4 hover:text-[#4e599c] cursor-pointer pb-7">
+              Testimonials
+            </li>
+            <li className="px-4 hover:text-[#4e599c] cursor-pointer pb-7">
+              Resources
+            </li>
+            <li className="px-4 hover:text-[#4e599c] cursor-pointer pb-7">
+              Contact
+            </li>
+          </ul>
+          <div className="flex items-end h-full">
+            <div className="px-5 py-5 w-full">
+              <button className="w-full py-[8px] rounded-md font-medium hover:bg-[#d4d4d4]">
+                Log in
+              </button>
+              <button className="w-full py-[8px] text-white bg-[#7854F7] rounded-md mt-3 font-bold hover:bg-[#A186FF]">
+                Get Started
+              </button>
+            </div>
+          </div>
+        </div>
       </nav>
     </div>
   );
