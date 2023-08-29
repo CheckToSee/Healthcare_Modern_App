@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-center bg-white bg-opacity-70 top-0 sticky z-50">
+    <div className="flex justify-center bg-white bg-opacity-70 z-50">
       <nav className="h-16 w-full max-w-[1400px] flex items-center">
         <div className="flex flex-[1.2] flex-row">
           <h1 className="font-bold text-3xl w-full h-16 flex items-center ml-8 mr-8 my-auto cursor-pointer">
@@ -46,7 +46,7 @@ const Navbar = () => {
         </div>
         <div onClick={handleNav} className="block lg:hidden">
           {!nav ? (
-            <AiOutlineClose size={30} className="mr-4 cursor-pointer" />
+            <AiOutlineClose size={30} className="mr-4 cursor-pointer fixed top-0 right-0 mt-4" />
           ) : (
             <AiOutlineMenu size={30} className="mr-4 cursor-pointer" />
           )}
@@ -54,11 +54,11 @@ const Navbar = () => {
         <div
           className={
             !nav
-              ? "fixed right-0 top-0 md:w-[400px] w-[95%] ml-14 md:h-[80%] h-[95%] bg-[#f5f5f5] ease-in-out duration-300 mt-16 rounded-xl flex flex-col justify-start"
-              : "fixed md:right-[-30%] right-[-40%] top-[-10%] ease-in-out duration-100"
+              ? "fixed right-0 top-0 md:w-[400px] w-[95%] ml-14 md:h-[80%] pt-7 h-[95%] bg-[#f5f5f5] ease-in-out duration-500 mt-16 rounded-xl flex flex-col justify-start"
+              : "fixed right-[-100%] pt-7"
           }
         >
-          <ul className="flex flex-col text-xl text-[#272D4E] font-normal pl-5 pt-7">
+          <ul className="flex flex-col text-xl text-[#272D4E] font-normal pl-5">
             <li className="px-4 hover:text-[#4e599c] cursor-pointer pb-7">
               Doctors
             </li>
@@ -77,7 +77,7 @@ const Navbar = () => {
           </ul>
           <div className="flex items-end h-full">
             <div className="px-5 py-5 w-full">
-              <button className="w-full py-[8px] rounded-md font-medium hover:bg-[#d4d4d4]">
+              <button className="w-full py-[8px] rounded-md font-medium bg-[#e8e8e8] hover:bg-[#d4d4d4]">
                 Log in
               </button>
               <button className="w-full py-[8px] text-white bg-[#7854F7] rounded-md mt-3 font-bold hover:bg-[#A186FF]">
