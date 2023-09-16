@@ -4,8 +4,16 @@ Design made using figma
 
 ![alt text](https://raw.githubusercontent.com/CheckToSee/Healthcare_Modern_App/main/public/preview.png)
 
-# How to run this project locally 
+# Run this project locally 
+Clone project and cd into that folder
 ```
-run npm install after cloning
+git clone https://github.com/CheckToSee/Healthcare_Modern_App.git
+cd Healthcare_Modern_App
+```
+
+Initialize npm and use the npm command run dev to start a local server
+
+```
+npm install
 npm run dev 
 ```
