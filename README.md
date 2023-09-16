@@ -1,10 +1,10 @@
-## Healthcare Modern App
+# Healthcare Modern App
 Online Healthcare clone WIP
 Design made using figma
 
 ![alt text](https://raw.githubusercontent.com/CheckToSee/Healthcare_Modern_App/main/public/preview.png)
 
-# Run this project locally 
+## Run this project locally 
 Clone project and cd into that folder
 ```
 git clone https://github.com/CheckToSee/Healthcare_Modern_App.git
