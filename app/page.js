@@ -1,4 +1,4 @@
-import { Navbar, Hero, Steps, Mission, Map } from "../components";
+import { Navbar, Hero, Steps, Mission, Map, Footer } from "../components";
 
 
 const Page = () => (

@@ -9,7 +9,7 @@ const Map = () => {
         Find doctors around the US
       </h1>
       <div className="w-full max-w-[1130px] max-h-[800px] h-full bg-center bg-contain bg-no-repeat bg-[url('/usmap.png')] ml-10">
-        <h1>TEST</h1>
+        <h1></h1>
       </div>
     </div>
   );
