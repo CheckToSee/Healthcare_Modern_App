@@ -3,6 +3,7 @@ import Hero from './Hero';
 import Steps from './Steps';
 import Mission from './Mission';
 import Map from './Map';
+import Footer from './Footer';
 
 export {
   Navbar,
@@ -10,4 +11,5 @@ export {
   Steps,
   Mission,
   Map,
+  Footer,
 };

@@ -8,6 +8,7 @@ const Page = () => (
     <Steps />
     <Mission />
     <Map />
+    <Footer />
   </div>
 );
 
