@@ -4,6 +4,8 @@ Design made using figma
 
 ![alt text](https://raw.githubusercontent.com/CheckToSee/Healthcare_Modern_App/main/public/preview.png)
 
+![alt text](https://raw.githubusercontent.com/CheckToSee/Healthcare_Modern_App/main/public/footer.png)
+
 ## Run this project locally 
 Clone project and cd into that folder
 ```
