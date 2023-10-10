@@ -24,4 +24,4 @@ npm install
 npm run dev 
 ```
 
-THIS PROJECT IS A WORK IN PROGRESS
+WIP
