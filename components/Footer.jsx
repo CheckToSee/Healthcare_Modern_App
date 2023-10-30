@@ -1,7 +1,7 @@
-import React from "react";
-import { GiCheckMark } from "react-icons/gi";
-import { BiSupport, BiLogoInstagram } from "react-icons/bi";
-import { BsShieldLockFill, BsTwitter, BsFacebook, BsYoutube } from "react-icons/bs";
+import React from 'react';
+import { GiCheckMark } from 'react-icons/gi';
+import { BiSupport, BiLogoInstagram } from 'react-icons/bi';
+import { BsShieldLockFill, BsTwitter, BsFacebook, BsYoutube } from 'react-icons/bs';
 
 const Footer = () => {
   return (
